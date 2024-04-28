@@ -34,7 +34,9 @@ const Movement = () => {
         <button onClick={() => dispatch({ type: "left" })}>Left</button>
         <button onClick={() => dispatch({ type: "right" })}>Right</button>
         <br />
-        <button onClick={() => dispatch({ type: "reset" })}>Reset</button>
+        <button onClick={() => dispatch({ type: "reset_movement" })}>
+          Reset
+        </button>
       </div>
     </>
   );

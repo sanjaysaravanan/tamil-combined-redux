@@ -34,7 +34,7 @@ const movementReducer = (state = initialState, action) => {
         };
       }
       return state;
-    case "reset":
+    case "reset_movement":
       return initialState;
     default:
       return state;

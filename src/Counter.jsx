@@ -9,9 +9,9 @@ const Counter = () => {
     <div>
       <h1>Count: {count}</h1>
       {console.log("Counter Rendering")}
-      <button onClick={() => dispatch({ type: "inc" })}>Inc</button>
-      <button onClick={() => dispatch({ type: "dec" })}>Dec</button>
-      <button onClick={() => dispatch({ type: "reset" })}>Reset</button>
+      <button onClick={() => dispatch({ type: "inc_counter" })}>Inc</button>
+      <button onClick={() => dispatch({ type: "dec_counter" })}>Dec</button>
+      <button onClick={() => dispatch({ type: "reset_counter" })}>Reset</button>
     </div>
   );
 };
